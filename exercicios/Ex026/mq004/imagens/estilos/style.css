@@ -30,11 +30,11 @@ h1 {
     font-size: 2em;
     text-shadow: 2px 2px 2px rgb(0, 0, 0.493);
 }
-
+img#phone { display: block ; }
 img#tablet { display: none ; }
 img#desktop { display: none ; } 
 img#print { display: none ; } 
-img#pc { display: block ; } 
+img#pc { display: none ; } 
 img#tv { display: none ; }  
     
 
