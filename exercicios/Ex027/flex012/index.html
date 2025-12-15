@@ -8,28 +8,36 @@
         div.container {
             display: flex;
             background-color: lightcoral;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
+
 
            
         }
         div.item {
             background-color: lightskyblue;
             text-align: center;
-            
             border: 1px solid black;
-            flex-basis: 150px;
+            
+            
         }
+        div#CxA {        
+            flex: 1 0 200px;
+        }
+        div#CxB { 
+            flex: 2 1 200px;
+        }
+        div#CxC { 
+            flex: 4 2 200px;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">Maior que o normal</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">Bem maior que não vai dar e vai quebrar</div> 
-        <div class="item">E</div>
-        <div class="item">Maior ainda xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</div>
-        <div class="item">G</div>
+        <div class="item" id="CxA">A</div>
+        <div class="item" id="CxB">B</div>
+        <div class="item" id="CxC">C</div>
+       
     </div>
 
     
