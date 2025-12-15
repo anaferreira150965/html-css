@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexible box</title>
     <style>
+
         div.container {
             display: flex;
             background-color: lightcoral;
             flex-flow: row wrap;
             height: 400px;
             align-items: flex-start;
-
-           
         }
         div.item {
             background-color: lightskyblue;
@@ -20,13 +19,14 @@
             padding: 20px;
             border: 1px solid black;
         }
+        
         div#i1 { align-self: center; }
         div#i2 { align-self: auto; }        
-        div#i3 { }
-        div#i4 {align-self: self-end; }
-        div#i5 { }
-        div#i6 { align-self: stretch;}
-        div#i7 {  }
+        div#i3 
+        div#i4 {align-self: flex-end;}
+        div#i5 
+        div#i6  {align-self: stretch;}
+      
         
     </style>
 
@@ -41,7 +41,7 @@
         <div class="item" id="i6">F</div>
         <div class="item" id="i7">G</div>
     </div>
-
     
-</body>
-</html>
+</body>     
+
+</html> 
