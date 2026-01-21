@@ -7,12 +7,13 @@
     <style>
         div.container {
            border: 3px solid blue;
-           height: 250px;
            display: grid;
-           grid-template: repeat(3, auto) / repeat(3, auto);          
+           grid-auto-rows: 80px;
+           grid-template-rows: 80px 80px 80px;
+           grid-template-columns: auto auto auto;          
            gap: 10px;
-           place-items: start center;
-           place-content: space-between end;
+           place-items: normal normal;
+           place-content: normal normal;
         }
         div.item {
             border: 2px solid red;
@@ -30,6 +31,8 @@
         <div class="item">E</div>
         <div class="item">F</div> 
         <div class="item">G</div>
+        <div class="item">H</div>
+        
           
     </div>
     
